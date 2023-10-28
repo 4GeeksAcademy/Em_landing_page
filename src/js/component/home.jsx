@@ -8,17 +8,17 @@ import Card from "./Card";
 //create your first component
 const Home = () => {
 	return (
-		<>
+		<div className="container pt-5">
 			<Nav />
 			<Jumbotron />
-			<div class="card-group">
+			<div className="card-group">
 				<Card />
 				<Card />
 				<Card />
 				<Card />
 			</div>
-		</>
+		</div>
 	);
 };
 
-export default Home;
+export default Home

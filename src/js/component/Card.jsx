@@ -1,19 +1,15 @@
 import React from "react";
-
-import rigoIMG from "../../img/rigo-baby.jpg"
+import car from '../../img/car.jpg'
 
 const Card = () => {
     return (
         <>
-            <div className="row row-cols-1 row-cols-md-2 g-4">
-                <div className="col">
-                    <div className="card">
-                        <img src="rigoIMG" className="card-img-top" alt="..."></img>
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
+            <div className="card w-12rem mx-3 text-bg-secondary rounded">
+                <img src={car} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </>
